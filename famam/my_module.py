@@ -41,6 +41,28 @@ def typed_function(a: np.ndarray, b: str = "") -> bool:
     return False
 
 
+def add_numbers(a: float, b: float) -> float:
+    """Add two numbers.
+
+    This function is a simple example, added to practice opening a pull request.
+
+    Args:
+        a: first number.
+        b: second number.
+
+    Examples
+        >>> add_numbers(2, 3)
+        5
+
+        >>> add_numbers(-1.5, 1.5)
+        0.0
+
+    Returns:
+        The sum of ``a`` and ``b``.
+    """
+    return a + b
+
+
 def other_function() -> None:
     """This is another function
 
